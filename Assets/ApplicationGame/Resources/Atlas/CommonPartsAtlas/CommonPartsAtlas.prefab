@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &109592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 473358}
+  - 114: {fileID: 11433446}
+  m_Layer: 0
+  m_Name: CommonPartsAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &473358
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11433446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 0149426fc8e3a476788366b0b334c2f3, type: 2}
+  sprites:
+  - name: square10
+    outer:
+      serializedVersion: 2
+      x: 177
+      y: 203
+      width: 150
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 187
+      y: 213
+      width: 130
+      height: 130
+    rotated: 0
+    paddingLeft: .333333343
+    paddingRight: .333333343
+    paddingTop: .333333343
+    paddingBottom: .333333343
+  - name: square20
+    outer:
+      serializedVersion: 2
+      x: 328
+      y: 203
+      width: 150
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 348
+      y: 223
+      width: 110
+      height: 110
+    rotated: 0
+    paddingLeft: .333333343
+    paddingRight: .333333343
+    paddingTop: .333333343
+    paddingBottom: .333333343
+  - name: cross
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 173
+      width: 161
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 173
+      width: 161
+      height: 161
+    rotated: 0
+    paddingLeft: .273291916
+    paddingRight: .279503107
+    paddingTop: .273291916
+    paddingBottom: .279503107
+  - name: circle
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 335
+      width: 176
+      height: 177
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 335
+      width: 176
+      height: 177
+    rotated: 0
+    paddingLeft: .204545453
+    paddingRight: .215909094
+    paddingTop: .21468927
+    paddingBottom: .197740108
+  - name: square
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 20
+      width: 152
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 20
+      width: 152
+      height: 152
+    rotated: 0
+    paddingLeft: .328947365
+    paddingRight: .315789461
+    paddingTop: .322368413
+    paddingBottom: .322368413
+  - name: triangle
+    outer:
+      serializedVersion: 2
+      x: 177
+      y: 354
+      width: 181
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 177
+      y: 354
+      width: 181
+      height: 158
+    rotated: 0
+    paddingLeft: .187845305
+    paddingRight: .193370163
+    paddingTop: .284810126
+    paddingBottom: .297468364
+  - name: square50
+    outer:
+      serializedVersion: 2
+      x: 359
+      y: 362
+      width: 150
+      height: 150
+    inner:
+      serializedVersion: 2
+      x: 409
+      y: 412
+      width: 50
+      height: 50
+    rotated: 0
+    paddingLeft: .333333343
+    paddingRight: .333333343
+    paddingTop: .333333343
+    paddingBottom: .333333343
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 109592}
+  m_IsPrefabParent: 1

@@ -1,0 +1,40 @@
+# ---------------[ Unity generated ]------------------ #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+UnityGenerated/
+  
+# ----[ Visual Studio / MonoDevelop generated ]------- #
+  
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+  
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+ 
+# -------------[ Build ]------------------------ #
+#*.html
+AppDebugUserId.text
+gmcs.rsp*
+smcs.rsp*
+
+
+Assets/ApplicationGame/BaseballScene.unity
+Assets/ApplicationGame/BaseballScene.unity.meta
+Assets/ApplicationGame/matoate.unity
+Assets/ApplicationGame/matoate.unity.meta
